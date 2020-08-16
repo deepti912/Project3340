@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', cursive;
+	color: white;
+	background-color: darkblue;
+}
+.navbar {
+	padding: .8rem;
+	color: darkblue;
+}
+.navbar-nav li {
+	padding-right: 20px;
+	color: darkblue !important;
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+input[type=text]{
+	
+	border: white;
+	width: 100%;
+	border-radius: 4px;
+}
+input[type=button] {
+	
+	border: white;
+	width: 100%;
+	border-radius: 4px;
+	cursor: pointer;
+	
+}
+
+}
+
+h2 {
+	color: white;
+	font-family: 'Poppins', cursive;
+}
+
+.laptop {
+	height: 100%;
+	width: 100%;
+}
+footer {
+	background-color: white;
+	color: darkblue;
+	padding-top: 2rem;
+	font-family: 'Poppins', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
